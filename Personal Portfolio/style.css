@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Work+Sans:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Nunito:wght@200;400;500&display=swap');
 
 body {
     margin: 0;
@@ -7,15 +6,63 @@ body {
 }
 
 nav {
-    background-color: darkslategray;
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+nav a img {
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+}
 
+button {
+    width: 15em;
+    height: 3em;
+    background: greenyellow;
+    outline: none;
+    border: none;
+    box-shadow: inset;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+a {
+    font-size: 2.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+h1,
+h3,
+h5 h6 {
+    border: 1px solid red;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    padding-right: 1em;
+}
+
+header ul li a {
+    color: #000;
 }
