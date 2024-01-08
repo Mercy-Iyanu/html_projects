@@ -13,7 +13,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em 3em;
 }
 
 nav a img {
@@ -78,6 +78,33 @@ h1 {
     font-size: 2.5rem;
     color: #fff;
     font-weight: 400;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        padding-top: 2.5em;
+        font-size: 1rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
 
 h3 {
@@ -93,12 +120,13 @@ header ul {
 }
 
 header ul li {
-    padding-left: 2.8em;
+    padding-left: 2.2em;
+    padding-bottom: 1.2em;
 }
 
 @media (max-width: 600px) {
-    header ul li {
-        padding: 0em;
+    header ul {
+        padding-left: 9em;
     }
 }
 
