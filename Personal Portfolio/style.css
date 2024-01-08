@@ -3,6 +3,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Nunito";
+}
+
+.container-fluid {
+    background: #151e3d;
 }
 
 nav {
@@ -12,57 +17,74 @@ nav {
 }
 
 nav a img {
-    width: 35px;
-    height: 40px;
+    width: 50px;
+    height: 55px;
     border-radius: 50%;
 }
 
 button {
-    width: 15em;
+    width: 16em;
     height: 3em;
-    background: greenyellow;
-    outline: none;
+    background: gray;
     border: none;
-    box-shadow: inset;
     border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
-    font-weight: 400;
 }
 
 a {
-    font-size: 2.5rem;
-    color: #000;
     text-decoration: none;
 }
 
 header {
     text-align: center;
+    padding-top: 5em;
 }
 
-h1,
-h3,
-h5 h6 {
-    border: 1px solid red;
+header h5,
+header h3,
+header h1,
+header h6 {
+    margin: .5em;
+}
+
+h5,
+h6 {
+    font-size: 1.5rem;
+    color: teal;
+}
+
+h6 {
+    font-weight: 300;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: #fff;
 }
 
 header ul {
     display: flex;
     list-style: none;
+    border: 1px solid red;
+    padding-left: 35em;
 }
 
 header ul li {
-    padding-right: 1em;
+    padding-left: 3em;
 }
 
-header ul li a {
-    color: #000;
+@media (max-width: 600px) {
+    header ul li {
+        padding: 0em;
+    }
+}
+
+header ul li a i {
+    color: #fff;
 }
